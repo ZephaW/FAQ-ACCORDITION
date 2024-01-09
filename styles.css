@@ -1,27 +1,51 @@
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+body {
+display: flex;
+align-content: center;
+  font-family: 'Work Sans', sans-serif;
+  background: url(assets/images/background-pattern-desktop.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 45vh;
+  margin-right: 45vh;
+  margin-top: 22.5vh;
+  margin-bottom: 22.5vh;
+  color: hsl(275, 100%, 97%);
+  background-color: hsl(275, 100%, 97%);
+
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%);
+.main-content {
+
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 2.5rem;
+
+
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    font-size: 16px;
-  }
+.header{
+  display: flex;
   
-  .main-content {
-   
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
-    margin-right: 40vh;
-    margin-left: 40vh;
-  }
+}
 
+.question{
+  display: flex;
+  justify-content: space-between;
   
+}
+
+p{
+  font-size: 14px;
+  color:hsl(292, 16%, 49%);
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 50px; 
+  margin-left: 1rem;
+  color:hsl(292, 42%, 14%) ;
+}
+
+h3 {
+  color:hsl(292, 42%, 14%) ;
+}
