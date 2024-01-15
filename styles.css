@@ -12,16 +12,16 @@ body {
   justify-content: center;
   color: hsl(275, 100%, 97%);
   background-color: hsl(275, 100%, 97%);
-  margin: 0; /* Reset default margin for body */
+  margin: 0; 
 }
 
 .main-content {
   width: 35%;
-  /* max-width: 600px; */
+  
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   padding: 2.5rem;
-  margin: 5% auto; /* Use percentage-based margin */
+  margin: 5% auto;
 }
 
 .header {
@@ -60,7 +60,7 @@ h3 {
   }
 
   .main-content {
-    width: 90%; /* Adjust width for smaller screens */
+    width: 90%;
     font-size: 10px;
    
   }
