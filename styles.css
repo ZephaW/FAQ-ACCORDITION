@@ -50,7 +50,7 @@ h3 {
 
 @media (min-width: 376px) and (max-width: 600px) {
   body {
-    /* background-size: 220%; */
+    
     margin: 0px;
     padding: 20px;
     font-size: 20px;
@@ -69,7 +69,7 @@ h3 {
 
 @media (max-width: 375px) {
   body {
-    /* background-size: 220%; */
+    
     margin: 50px 20px;
     padding: 20px;
   }
@@ -86,3 +86,10 @@ h3 {
 }
 
 
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
